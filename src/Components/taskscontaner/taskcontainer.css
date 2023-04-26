@@ -1,0 +1,41 @@
+.tasks,.tasks .container{
+    width: 100%;
+}
+.tasks .container .list{
+     width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.tasks .container .list .task{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#3700b3;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+.tasks .container .list .task p{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.tasks .container .list .task .control i{
+   padding: 10px;
+   font-weight: bold;
+   text-transform: capitalize;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-left: 5px;
+}
+.tasks .container .list .task .control i:first-child{
+    background-color: green;
+    
+}
+.tasks .container .list .task .control i:last-child{
+    background-color: rgb(201, 70, 107);
+    text-transform:capitalize !important;
+}
